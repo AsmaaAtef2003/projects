@@ -1,0 +1,749 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 6000;
+
+  background-color: beige;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.div1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/michal-parzuchowski-ItaV89TNkks-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.overley1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+}
+.con1 {
+  width: 450;
+  height: 250;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-95%, -80%);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.t1 {
+  font-size: 65px;
+  color: beige;
+  margin-right: 20px;
+  transition: 1s;
+}
+.p1 {
+  color: beige;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin: 20px 0;
+  word-spacing: 1px;
+}
+.btn {
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 12px;
+  background-color: beige;
+  text-transform: capitalize;
+}
+.btn2 {
+  background-color: rgb(66, 49, 49);
+  color: beige;
+}
+.t1:hover {
+  opacity: 0.3;
+}
+.btn:hover {
+  opacity: 0.6;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(26, 17, 17, 0.968);
+  overflow: auto;
+  z-index: 20;
+  margin-top: 0;
+  position: absolute;
+  position: fixed;
+}
+.imgh {
+  width: 70;
+  height: 70;
+  float: left;
+  background-color: rgba(245, 245, 220, 0.858);
+  border-radius: 10%;
+  margin-left: 20px;
+}
+.l1 {
+  margin-left: 800px;
+  margin-top: 20px;
+}
+.l1 li {
+  display: inline-block;
+  float: left;
+  margin-right: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.l1 li a {
+  text-decoration: none;
+  color: beige;
+  font-size: 20px;
+}
+.l1 li a:hover {
+  text-decoration: underline;
+}
+.w1 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 50;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
+  word-spacing: 1px;
+}
+.line1 {
+  width: 100px;
+  height: 7px;
+  margin: auto;
+  background-color: rgb(55, 39, 39);
+  margin-top: -19px;
+}
+.con2 {
+  width: 100%;
+  overflow: auto;
+}
+.wel {
+  float: left;
+  margin: auto;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+  width: 370;
+  height: 250;
+  border: 3px solid rgb(50, 41, 41);
+  padding-top: 15;
+  position: relative;
+}
+.i1 {
+  font-size: 30px;
+  padding: 16px 0;
+  color: rgb(128, 110, 49);
+}
+.wh {
+  font-size: 25;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(40, 22, 11);
+}
+.wel::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: rgb(97, 66, 66);
+  opacity: 0;
+  transition: 1s;
+}
+.wel:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+
+}
+
+
+
+
+.off {
+  text-align: center;
+  margin: 100px 0;
+  font-size: 50;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
+  word-spacing: 2px;
+}
+.line2 {
+  width: 100px;
+  height: 7px;
+  margin: auto;
+  background-color: rgb(55, 39, 39);
+  margin-top: -80px;
+}
+.con3 {
+  width: 100%;
+  overflow: auto;
+  margin-top: 40;
+}
+.off3 {
+  float: left;
+  margin: auto;
+  margin-left: 150px;
+  margin-top: 50px;
+  text-align: center;
+  width: 300;
+  height: 130;
+  border: 3px solid rgb(50, 41, 41);
+  padding-top: 15;
+  position: relative;
+}
+.of3 {
+  font-size: 30;
+  font-weight: bold;
+  padding: 30px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 7;
+}
+.of33 {
+}
+.i2 {
+  font-size: 30;
+  color: rgb(128, 110, 49);
+  padding: 0 7px;
+  display: block;
+  padding: 7px 0;
+}
+.off3::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: rgb(97, 66, 66);
+  opacity: 0;
+  transition: 1s;
+}
+.off3:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.off3::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(97, 66, 66);
+  opacity: 0;
+  transition: 1s;
+}
+.off3:hover::before {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+.pr1 {
+  text-align: center;
+  font-size: 50;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
+  margin-top: 90;
+}
+.pr2 {
+  width: 100;
+  height: 7;
+  margin: auto;
+  background-color: rgb(55, 39, 39);
+  margin-top: 20px;
+}
+.con4 {
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+  margin-top: 80;
+}
+.pr3 {
+  width: 300;
+  height: 355;
+  border: 3px solid rgb(46, 35, 35);
+  text-align: center;
+  float: left;
+  margin: auto;
+  margin-left: 150;
+  position: relative;
+}
+.pr4 {
+  font-size: 20;
+  padding: 6;
+  padding-top: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2;
+  word-spacing: 1;
+  color: rgb(113, 93, 68);
+}
+.pr5 {
+  width: 100;
+  height: 100;
+  border-radius: 50%;
+  border: 3px solid rgb(103, 70, 70);
+  margin: auto;
+  padding: 7px 0;
+  margin-top: 7;
+}
+.pr6 {
+  font-size: 24;
+  text-align: center;
+  margin: auto;
+  margin-top: 8;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
+}
+.pr7 {
+  width: 100px;
+  height: 30;
+  border: 2px solid rgb(119, 80, 80);
+  margin: auto;
+  margin-top: 17;
+  text-align: center;
+}
+.pr8 {
+  text-align: center;
+  padding-top: 4;
+}
+.pr3::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  right: 0;
+  background-color: rgb(97, 66, 66);
+  opacity: 0;
+  transition: 1s;
+}
+.pr3:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.pr4:hover {
+  color: azure;
+  opacity: 0.2;
+  transition: 3s;
+}
+.con5 {
+  width: 80%;
+
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 30;
+}
+.te2 {
+  float: left;
+  width: 30%;
+  background-color: rgba(115, 98, 78, 0.651);
+  padding-top: 22;
+  text-align: center;
+  padding-left: 22;
+  padding-right: 22;
+  position: relative;
+}
+.o {
+  margin: 0 5%;
+}
+.teimg {
+  position: relative;
+}
+.teimg img {
+  width: 100%;
+}
+.overimg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(54, 39, 17, 0.402);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+.overimg a {
+  width: 40;
+  height: 40;
+  display: block;
+  background-color: rgb(118, 81, 65);
+  color: beige;
+  font-size: 25;
+  margin-left: auto;
+}
+.overimg a i {
+  line-height: 40px;
+}
+.te2:hover .overimg {
+  visibility: visible;
+  opacity: 0.9;
+  z-index: 3;
+}
+.te2::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgb(82, 63, 40);
+  transition: 1s;
+}
+.te2:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  margin-right: 100;
+}
+.con6 {width: 100%;
+  height: 350px;
+  background-color: antiquewhite;
+  margin-top: 450;
+  position: relative;
+  
+}
+.imgcon6 {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/brick-wall-painted-white.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.over6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(87, 71, 48, 0.751);
+  top: 0;
+  overflow: auto;
+}
+.s {
+  width: 500;
+  height: 300;
+
+  margin-left: 70;
+  float: left;
+}
+.s img {
+  width: 100px;
+  height: 100px;
+  margin-top: 100;
+  margin-left: 100;
+  border-radius: 50%;
+}
+.so {
+  margin-left: 210;
+  margin-top: -75;
+  font-size: 22;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 10;
+  color: rgb(49, 31, 17);
+}
+.soo {
+  margin-left: 210;
+  margin-top: 10;
+  padding-left: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(81, 62, 15);
+}
+.sooo {
+  padding-top: 25;
+  line-height: 1.5;
+  margin-left: 130;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(44, 25, 11);
+
+  font-size: 13;
+}
+.ss {
+  margin-left: 250;
+}
+.con77{
+  
+  
+  
+}
+.con7 {
+  width: 100%;
+  overflow: auto;
+  margin-top: 100px;
+
+}
+.fimg {
+  float: left;
+  position: relative;
+  margin-left: 110;
+  width: 350;
+  height: 300;
+  overflow: hidden;
+}
+.fover {
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin-top: 100;
+  text-align: center;
+}
+.fimg:hover .fover {
+  visibility: visible;
+  margin: auto;
+  text-align: center;
+  margin-top: 100;
+  z-index: 5;
+}
+.fimg::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: rgb(69, 46, 11);
+  opacity: 0;
+  transition: 1s;
+}
+.fimg:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+.ft1 {
+  font-size: 20;
+}
+.fover a {
+  padding: 4px 0;
+  color: rgb(209, 193, 146);
+  font-size: 20px;
+  margin-top: 5px;
+}
+.r {
+  height: 500px;
+}
+.r1 {
+  width: 100%;
+
+  text-align: left;
+  margin-top: 30;
+  padding-top: 2;
+  font-size: 14;
+}
+.r1 i {
+}
+.rr {
+}
+.rrr{
+  padding: 8px 0;
+  padding-top: 10;
+}
+.r1 a{
+  font-size: 20;
+  text-decoration: none;
+  color: rgba(105, 75, 20, 0.804);
+  z-index: 7;
+}
+.rrrr{
+  padding-bottom: 20px;
+  padding-top: 2;
+}
+.con10{
+  width: 100%;
+  height: 330;
+  margin-top: 650;
+  background-color: blanchedalmond;
+  position: relative;
+  
+}
+.img10{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-image: url(images/color-breakfast-outdoors-glass-white.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.over10{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(20, 14, 8, 0.877);
+  overflow: auto;
+}
+.lo1{
+  float: left;
+  margin-left: 220;
+  margin-top: 150;
+  text-align: center;
+  
+}
+.lo1 i{
+  margin: auto;
+  margin-left: 5px;
+  font-size: 32;
+  text-align: center;
+  color: rgba(72, 57, 8, 0.92);
+}
+.l11{
+  font-size: 39;
+  padding-top: 7;
+  color: rgba(245, 245, 220, 0.795);
+  
+  
+}
+.l111{
+  font-size: 20;
+  color: rgba(245, 245, 220, 0.799);
+  
+}
+.con11{
+  width: 100%;
+  height: 500px;
+  background-color: rgba(134, 96, 54, 0.139);
+  margin-top: 200;
+  
+}
+.par1{
+  width: 40%;
+  height: 100%;
+  
+  margin-left: 10%;
+  float: left;
+  
+
+}
+.parl{
+  width: 80;
+  height: 5;
+  background-color: black;
+  margin-top: 10;
+  
+}
+.par22{
+font-size: 50;
+  padding-top: 100px;
+}
+.par1 span{
+  font-size: 15;
+  color:  rgba(59, 33, 10, 0.71);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 5px;
+  
+}
+.par111{
+  padding: 10px 0;
+  font-size: 20;
+  padding: 25px 0;
+  color: rgba(59, 33, 10, 0.66);
+}
+.par1 i {
+  
+  display: inline-block;
+}
+.par2{
+  float: left;
+  width: 30%;
+  height: 100%;
+  margin-left: 150;
+  margin-top: 70;
+}
+.con12{
+  width: 100%;
+  height: 350px;
+  background-color: rgba(84, 65, 44, 0.224);
+  margin-top: 260;
+  
+}
+.last{
+  width: 600;
+  height: 350;
+  margin: auto;
+  text-align: center;
+  
+  margin-top: 60;
+  
+
+}
+.last i{
+  
+}
+.lasti{
+  width: 300;
+  height: 60;
+  margin: auto;
+  font-size: 32;
+
+}
+.lasti i{
+  
+  color: beige;
+  width: 40;
+  height: 40;
+  border-radius: 50%;
+}
+
+.lasti i:hover{
+  color: rgb(88, 65, 15);
+}
+.last1{
+  font-size: 10;
+}
+
+.try{
+  text-decoration: none;
+  font-size: 20;
+  color: rgb(128, 110, 49);
+  
+  
+}
+.wp{
+color: rgba(0, 0, 0, 0.493);
+}
+.wel:hover .wh{
+  color: rgb(186, 173, 119);
+}
+.pr3:hover .pr6{
+  color: rgb(169, 138, 27);
+}
+.list1 li{
+  display: inline-block;
+  color: rgba(190, 176, 159, 0.822);
+  padding-left: 17;
+  padding-top: 10;
+  font-size: 10;
+  
+  
+  
+}
+.list1{
+  margin-left: 150;
+}
+  .ii{
+    color: rgba(84, 44, 19, 0.945);
+  }
+  .list1 i:hover{
+    color:  rgba(84, 44, 19, 0.945);
+  }
